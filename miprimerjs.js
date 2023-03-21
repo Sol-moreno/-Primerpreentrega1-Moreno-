@@ -1,4 +1,4 @@
-alert("Bienvenidos a la calculadora de promedios")
+alert("Bienvenidos a la calculadora de promedios 👨‍🎓")
 const usuarioAutorizado = "alumno"
 const contraseniaAutorizada = "1234"
 
@@ -22,9 +22,9 @@ if (usuario === usuarioAutorizado && contrasenia === contraseniaAutorizada) {
         let aprueba = apruebaAnio(promedio)
 
         if (aprueba) {
-            alert(nombreAlumno + " Aprueba el año ")
+            alert(nombreAlumno + "✅ Aprueba el año ")
         } else {
-        alert(nombreAlumno + " No aprueba el anio ")
+        alert(nombreAlumno + "❌ No aprueba el anio ")
         }
     }
 } else {
