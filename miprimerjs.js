@@ -28,7 +28,7 @@ if (usuario === usuarioAutorizado && contrasenia === contraseniaAutorizada) {
         }
     }
 } else {
-    alert("Usuario o contrasenia incorrecta")
+    alert("❌ Usuario o contrasenia incorrecta")
 }
 
 function calcularPromedio(primeraNota, segundaNota, terceraNota) {
